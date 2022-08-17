@@ -12,4 +12,4 @@ ls -l ~/.gitconfig || ln -s $SCRIPT_DIR/.gitconfig ~/.gitconfig
 
 source brew.sh
 source neovim.sh
-
+source iterm2.sh

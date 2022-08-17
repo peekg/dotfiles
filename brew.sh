@@ -8,13 +8,14 @@ function brew_install {
   (brew list $@ && brew upgrade $@) || brew install $@
 }
 
-#apps
+#app
 brew_install --cask slack
+brew_install --cask spotify
 
 #browser
 brew_install --cask google-chrome
 brew_install --cask firefox
-brew_install --cask brave
+brew_install --cask brave-browser
 
 #shell
 brew_install openssh
@@ -44,7 +45,7 @@ brew_install pkg-config
 brew_install cmake
 brew_install ninja
 brew_install bazel
-#libs
+#lib
 brew_install boost
 brew_install double-conversion
 brew_install gflags
