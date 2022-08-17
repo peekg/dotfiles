@@ -1,0 +1,3 @@
+[alias]
+  branches-by-date = branch --sort=-committerdate
+  branches-show-date-user = for-each-ref --format='%(committerdate) %09 %(authorname) %09 %(refname)' | sort -k5n -k2M -k3n -k4n

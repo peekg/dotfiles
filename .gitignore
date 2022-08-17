@@ -1,0 +1,4 @@
+.DS_Store
+.config/coc/*
+.config/nvim/.swap/*
+node_modules/*
